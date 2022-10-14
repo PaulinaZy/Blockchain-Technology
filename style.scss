@@ -1,0 +1,39 @@
+@import "Assets/reset.scss";
+/* Kolory */
+$color-green: #00E3A5;
+$color-p: #80AB9E;
+$color-h2: #F5FBF2;
+$color-h3: #F5FBF2;
+$color-h4: #FFFFFF;
+
+/* Sizes */
+$p-size: 18px;
+$h2-size: 36px;
+$h3-size: 32px;
+$h4-size: 24px;
+
+/* Button */
+.btn {
+    font-size: 18px;
+    padding: 24px 30px;
+    color: #FFF;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    border: 1px solid $color-green;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Boxes */
+.box {
+    width: 318px;
+    height: 229px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

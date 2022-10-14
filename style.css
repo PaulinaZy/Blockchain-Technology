@@ -1,0 +1,25 @@
+* {
+  margin: 10px;
+}
+
+/* Kolory */
+/* Sizes */
+nav li {
+  display: inline;
+}
+nav li a {
+  color: red;
+  text-decoration: none;
+}
+
+.btn, .btn-koszyk {
+  border: none;
+  padding: 30px 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-koszyk {
+  background-color: red;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
