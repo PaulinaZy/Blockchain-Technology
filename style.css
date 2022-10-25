@@ -23,6 +23,7 @@ button {
   border: 1px solid #00E3A5;
   border-radius: 5px;
   text-align: center;
+  text-decoration: none;
 }
 
 /* Boxes */
@@ -74,9 +75,9 @@ button {
   margin-left: 72px;
 }
 .web-container header nav ul li a {
-  text-decoration: none;
   color: #F5FBF2;
   position: relative;
+  text-decoration: none;
 }
 .web-container header nav ul li a:hover {
   color: #00E3A5;

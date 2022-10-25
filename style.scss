@@ -28,6 +28,7 @@ sans-serif;
     border: 1px solid $color-green;
     border-radius: 5px;
     text-align: center;
+    text-decoration: none;
 }
 
 /* Boxes */
@@ -82,9 +83,9 @@ sans-serif;
 
 
                     a {
-                        text-decoration: none;
                         color: $color-h2;
                         position: relative;
+                        text-decoration: none;
 
                         &:hover {
                             color: $color-green;
