@@ -106,4 +106,49 @@ sans-serif;
             }
         }
     }
+
+    //Section Blockchain
+    .section-blockchain {
+        display: flex;
+
+        .hero-text {
+            p {
+                color: $color-p;
+                line-height: 36.4px;
+                font-size: 28px;
+            }
+
+            h2 {
+                color: $color-h2;
+                line-height: 64.1px;
+                font-size: 52px;
+                font-weight: 700;
+            }
+
+            a {
+                background-color: $color-green;
+                color: #181818;
+                border: none;
+                padding: 24px 48px;
+                position: relative;
+                display: inline-block;
+                font-size: 20px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    top: 100%;
+                    width: 220px;
+                    height: 1px;
+                    transform: translate(-50%, -100%);
+                    box-shadow: 0 3px 13px 3px #00e3a5;
+
+                }
+
+            }
+        }
+
+    }
+
 }

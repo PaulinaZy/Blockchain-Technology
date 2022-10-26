@@ -91,4 +91,37 @@ button {
   left: 0;
   bottom: -8px;
   border-radius: 29px;
+}
+.web-container .section-blockchain {
+  display: flex;
+}
+.web-container .section-blockchain .hero-text p {
+  color: #80AB9E;
+  line-height: 36.4px;
+  font-size: 28px;
+}
+.web-container .section-blockchain .hero-text h2 {
+  color: #F5FBF2;
+  line-height: 64.1px;
+  font-size: 52px;
+  font-weight: 700;
+}
+.web-container .section-blockchain .hero-text a {
+  background-color: #00E3A5;
+  color: #181818;
+  border: none;
+  padding: 24px 48px;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+.web-container .section-blockchain .hero-text a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 220px;
+  height: 1px;
+  transform: translate(-50%, -100%);
+  box-shadow: 0 3px 13px 3px #00e3a5;
 }/*# sourceMappingURL=style.css.map */
