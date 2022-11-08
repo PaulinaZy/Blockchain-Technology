@@ -43,14 +43,19 @@ button {
 .web-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
-  font-family: "Roboto", sans-serif;
   background-color: #0D0D0D;
-  padding-top: 50px;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
-.web-container header {
+.web-container .main {
+  background-image: url("./Assets/main/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+}
+.web-container .main header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -58,31 +63,32 @@ button {
   width: 95%;
   border-radius: 100px;
   padding: 50px 0;
+  margin: 0 auto;
 }
-.web-container header .logo-header {
+.web-container .main header .logo-header {
   color: #F5FBF2;
   font-size: 45px;
   font-weight: 400;
 }
-.web-container header .logo-header span {
+.web-container .main header .logo-header span {
   color: #00E3A5;
 }
-.web-container header nav ul {
+.web-container .main header nav ul {
   display: flex;
   list-style: none;
 }
-.web-container header nav ul li {
+.web-container .main header nav ul li {
   margin-left: 72px;
 }
-.web-container header nav ul li a {
+.web-container .main header nav ul li a {
   color: #F5FBF2;
   position: relative;
   text-decoration: none;
 }
-.web-container header nav ul li a:hover {
+.web-container .main header nav ul li a:hover {
   color: #00E3A5;
 }
-.web-container header nav ul li a:hover::after {
+.web-container .main header nav ul li a:hover::after {
   content: "";
   width: 48px;
   height: 4px;
@@ -92,21 +98,28 @@ button {
   bottom: -8px;
   border-radius: 29px;
 }
-.web-container .section-blockchain {
+.web-container .main .section-blockchain {
   display: flex;
+  align-items: center;
+  padding-left: 6.5%;
 }
-.web-container .section-blockchain .hero-text p {
+.web-container .main .section-blockchain .hero-text {
+  width: 40%;
+}
+.web-container .main .section-blockchain .hero-text p {
   color: #80AB9E;
   line-height: 36.4px;
   font-size: 28px;
+  margin-bottom: 16px;
 }
-.web-container .section-blockchain .hero-text h2 {
+.web-container .main .section-blockchain .hero-text h2 {
   color: #F5FBF2;
   line-height: 64.1px;
   font-size: 52px;
   font-weight: 700;
+  margin-bottom: 70px;
 }
-.web-container .section-blockchain .hero-text a {
+.web-container .main .section-blockchain .hero-text a {
   background-color: #00E3A5;
   color: #181818;
   border: none;
@@ -115,7 +128,7 @@ button {
   display: inline-block;
   font-size: 20px;
 }
-.web-container .section-blockchain .hero-text a::after {
+.web-container .main .section-blockchain .hero-text a::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -124,4 +137,8 @@ button {
   height: 1px;
   transform: translate(-50%, -100%);
   box-shadow: 0 3px 13px 3px #00e3a5;
+}
+.web-container .main .section-blockchain .hero-image img {
+  width: 100%;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
