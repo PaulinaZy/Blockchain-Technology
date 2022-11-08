@@ -6,6 +6,7 @@ $color-h2: #F5FBF2;
 $color-h3: #F5FBF2;
 $color-h4: #FFFFFF;
 $color-bg-header: hsla(165, 61%, 9%, 0.3);
+$color-black: #0D0D0D;
 
 /* Sizes */
 $p-size: 18px;
@@ -47,63 +48,131 @@ sans-serif;
 .web-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
-    font-family: $font;
-    background-color: #0D0D0D;
-    padding-top: 50px;
+    background-color: $color-black;
     font-size: $p-size;
+    font-family: $font;
 
-    header {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: $color-bg-header;
-        width: 95%;
-        border-radius: 100px;
-        padding: 50px 0;
+    .main {
+        background-image: url("./Assets/main/bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 50px;
 
-        .logo-header {
-            color: $color-h2;
-            font-size: 45px;
-            font-weight: 400;
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
 
-            span {
-                color: $color-green;
+            background-color: $color-bg-header;
+
+            width: 95%;
+            border-radius: 100px;
+            padding: 50px 0;
+            margin: 0 auto;
+
+            .logo-header {
+                color: $color-h2;
+                font-size: 45px;
+                font-weight: 400;
+
+                span {
+                    color: $color-green;
+                }
             }
-        }
 
-        nav {
-            ul {
-                display: flex;
-                list-style: none;
+            nav {
+                ul {
+                    display: flex;
+                    list-style: none;
 
-                li {
-                    margin-left: 72px;
+                    li {
+                        margin-left: 72px;
 
 
-                    a {
-                        color: $color-h2;
-                        position: relative;
-                        text-decoration: none;
+                        a {
+                            color: $color-h2;
+                            position: relative;
+                            text-decoration: none;
 
-                        &:hover {
-                            color: $color-green;
-                        }
+                            &:hover {
+                                color: $color-green;
+                            }
 
-                        &:hover::after {
-                            content: "";
-                            width: 48px;
-                            height: 4px;
-                            background-color: $color-green;
-                            position: absolute;
-                            left: 0;
-                            bottom: -8px;
-                            border-radius: 29px;
+                            &:hover::after {
+                                content: "";
+                                width: 48px;
+                                height: 4px;
+                                background-color: $color-green;
+                                position: absolute;
+                                left: 0;
+                                bottom: -8px;
+                                border-radius: 29px;
+                            }
                         }
                     }
                 }
             }
         }
+
+
+        //Section Blockchain
+        .section-blockchain {
+            display: flex;
+            align-items: center;
+            padding-left: 6.5%;
+
+            .hero-text {
+                width: 40%;
+
+                p {
+                    color: $color-p;
+                    line-height: 36.4px;
+                    font-size: 28px;
+                    margin-bottom: 16px;
+                }
+
+                h2 {
+                    color: $color-h2;
+                    line-height: 64.1px;
+                    font-size: 52px;
+                    font-weight: 700;
+                    margin-bottom: 70px;
+                }
+
+                a {
+                    background-color: $color-green;
+                    color: #181818;
+                    border: none;
+                    padding: 24px 48px;
+                    position: relative;
+                    display: inline-block;
+                    font-size: 20px;
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        top: 100%;
+                        width: 220px;
+                        height: 1px;
+                        transform: translate(-50%, -100%);
+                        box-shadow: 0 3px 13px 3px #00e3a5;
+
+                    }
+
+                }
+            }
+
+            .hero-image {
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+        }
     }
+
 }
