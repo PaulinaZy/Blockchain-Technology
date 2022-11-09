@@ -141,4 +141,46 @@ button {
 .web-container .main .section-blockchain .hero-image img {
   width: 100%;
   display: block;
+}
+.web-container .section-map {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.web-container .section-map h4 {
+  font-size: 24px;
+  color: #80AB9E;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 8.5px;
+}
+.web-container .section-map h2 {
+  font-size: 36px;
+  line-height: 54px;
+  color: #F5FBF2;
+  margin-bottom: 46.6px;
+}
+.web-container .section-map .map-numbers-container {
+  margin: 0 auto;
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.web-container .section-map .map-numbers-container .map-number span {
+  color: #00E3A5;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.web-container .section-map .map-numbers-container .map-number p {
+  color: #80AB9E;
+  font-size: 18px;
+  line-height: 27px;
+}
+.web-container .section-map .map-img img {
+  margin-top: -72px;
+  position: relative;
+  z-index: 1;
 }/*# sourceMappingURL=style.css.map */
