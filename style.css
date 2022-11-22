@@ -143,6 +143,7 @@ button {
   display: block;
 }
 .web-container .section-map {
+  margin-bottom: 127px;
   text-align: center;
   display: flex;
   flex-direction: column;
