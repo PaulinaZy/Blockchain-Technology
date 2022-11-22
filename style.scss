@@ -230,4 +230,25 @@ sans-serif;
         }
     }
 
+    //Section Banner
+    .section-banner {
+        margin-bottom: 144px;
+
+        .banner-container {
+            background-color: #091D18;
+            opacity: 0.5;
+            border-radius: 130px;
+            margin-inline: 77px;
+            padding: 105px 0 113px 0;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+                opacity: inherit;
+            }
+        }
+    }
+
 }

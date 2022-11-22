@@ -183,4 +183,20 @@ button {
   margin-top: -72px;
   position: relative;
   z-index: 1;
+}
+.web-container .section-banner {
+  margin-bottom: 144px;
+}
+.web-container .section-banner .banner-container {
+  background-color: #091D18;
+  opacity: 0.5;
+  border-radius: 130px;
+  margin-inline: 77px;
+  padding: 105px 0 113px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.web-container .section-banner .banner-container img {
+  opacity: inherit;
 }/*# sourceMappingURL=style.css.map */
