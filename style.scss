@@ -59,6 +59,7 @@ sans-serif;
         background-position: center;
         background-size: cover;
         padding-top: 50px;
+        margin-bottom: 120px;
 
         header {
             display: flex;
@@ -173,83 +174,3 @@ sans-serif;
             }
 
         }
-    }
-
-    //===SECTION MAP===
-    .section-map {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-
-        h4 {
-            font-size: $h4-size;
-            color: $color-p;
-            font-weight: 400;
-            line-height: 36px;
-            margin-bottom: 8.5px;
-        }
-
-        h2 {
-            font-size: $h2-size;
-            line-height: 54px;
-            color: $color-h2;
-            margin-bottom: 46.6px;
-        }
-
-        .map-numbers-container {
-            margin: 0 auto;
-            width: 43%;
-            display: flex;
-            justify-content: space-between;
-
-            position: relative;
-            z-index: 2;
-
-            .map-number {
-                span {
-                    color: $color-green;
-                    font-size: 36px;
-                    font-weight: 700;
-                    line-height: 54px;
-                }
-
-                p {
-                    color: $color-p;
-                    font-size: $p-size;
-                    line-height: 27px;
-                }
-            }
-        }
-
-        .map-img {
-            img {
-                margin-top: -72px;
-                position: relative;
-                z-index: 1;
-            }
-        }
-    }
-
-    //Section Banner
-    .section-banner {
-        margin-bottom: 144px;
-
-        //company logos
-        .banner-container {
-            font-family: $font;
-            background-color: #091D18;
-            opacity: 0.5;
-            border-radius: 130px;
-            margin-inline: 77px;
-            padding: 105px 0 113px 0;
-
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-
-            img {
-                opacity: inherit;
-            }
-        }
-    }
-}
