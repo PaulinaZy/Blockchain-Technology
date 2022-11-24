@@ -49,7 +49,6 @@ button {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
-
 .web-container .main {
   background-image: url("./Assets/main/bg.png");
   background-repeat: no-repeat;
@@ -58,7 +57,6 @@ button {
   padding-top: 50px;
   margin-bottom: 120px;
 }
-
 .web-container .main header {
   display: flex;
   justify-content: space-around;
@@ -69,36 +67,29 @@ button {
   padding: 50px 0;
   margin: 0 auto;
 }
-
 .web-container .main header .logo-header {
   color: #F5FBF2;
   font-size: 45px;
   font-weight: 400;
 }
-
 .web-container .main header .logo-header span {
   color: #00E3A5;
 }
-
 .web-container .main header nav ul {
   display: flex;
   list-style: none;
 }
-
 .web-container .main header nav ul li {
   margin-left: 72px;
 }
-
 .web-container .main header nav ul li a {
   color: #F5FBF2;
   position: relative;
   text-decoration: none;
 }
-
 .web-container .main header nav ul li a:hover {
   color: #00E3A5;
 }
-
 .web-container .main header nav ul li a:hover::after {
   content: "";
   width: 48px;
@@ -109,24 +100,20 @@ button {
   bottom: -8px;
   border-radius: 29px;
 }
-
 .web-container .main .section-blockchain {
   display: flex;
   align-items: center;
   padding-left: 6.5%;
 }
-
 .web-container .main .section-blockchain .hero-text {
   width: 40%;
 }
-
 .web-container .main .section-blockchain .hero-text p {
   color: #80AB9E;
   line-height: 36.4px;
   font-size: 28px;
   margin-bottom: 16px;
 }
-
 .web-container .main .section-blockchain .hero-text h2 {
   color: #F5FBF2;
   line-height: 64.1px;
@@ -134,7 +121,6 @@ button {
   font-weight: 700;
   margin-bottom: 70px;
 }
-
 .web-container .main .section-blockchain .hero-text a {
   background-color: #00E3A5;
   color: #181818;
@@ -144,7 +130,6 @@ button {
   display: inline-block;
   font-size: 20px;
 }
-
 .web-container .main .section-blockchain .hero-text a::after {
   content: "";
   position: absolute;
@@ -155,12 +140,10 @@ button {
   transform: translate(-50%, -100%);
   box-shadow: 0 3px 13px 3px #00e3a5;
 }
-
 .web-container .main .section-blockchain .hero-image img {
   width: 100%;
   display: block;
 }
-
 .web-container .section-about {
   margin-top: 300px;
   margin-bottom: 232px;
@@ -174,14 +157,12 @@ button {
   border-bottom-right-radius: 300px;
   display: flex;
 }
-
 .web-container .section-about .text-container {
   margin-left: 135px;
   margin-right: 132px;
   padding: 0 0 81px 0;
   width: 33%;
 }
-
 .web-container .section-about .text-container h2 {
   color: #F5FBF2;
   font-size: 36px;
@@ -189,7 +170,6 @@ button {
   font-weight: 700;
   margin-bottom: 35px;
 }
-
 .web-container .section-about .text-container p {
   font-size: 20px;
   font-weight: 400;
@@ -197,18 +177,15 @@ button {
   color: #80AB9E;
   margin-bottom: 35px;
 }
-
 .web-container .section-about .text-container .btn {
   display: inline-block;
   padding: 24px 107px;
   margin-top: 46px;
 }
-
 .web-container .section-about .boxes-container {
   position: relative;
   width: 67%;
 }
-
 .web-container .section-about .boxes-container h5 {
   font-weight: 400;
   font-size: 22px;
@@ -216,7 +193,6 @@ button {
   line-height: 34px;
   margin-top: 25px;
 }
-
 .web-container .section-about .boxes-container .blur {
   position: absolute;
   width: 95px;
@@ -224,69 +200,33 @@ button {
   border-radius: 50%;
   filter: blur(35px);
 }
-
 .web-container .section-about .boxes-container .market {
   top: 0;
   left: 0;
 }
-
 .web-container .section-about .boxes-container .money {
   top: 0;
   left: 25px;
   transform: translate(100%, 50%);
   z-index: 2;
 }
-
 .web-container .section-about .boxes-container .data {
   top: 25px;
   left: 0;
   transform: translate(40%, 100%);
 }
-
 .web-container .section-about .boxes-container .secure {
   top: 25px;
   left: 25px;
   transform: translate(140%, 150%);
 }
-
 .web-container .section-about .boxes-container .yellow,
 .web-container .section-about .boxes-container .blue {
   top: -20px;
   left: 52px;
 }
-
 .web-container .section-about .boxes-container .orange,
 .web-container .section-about .boxes-container .green {
   top: -20px;
   right: 52px;
-}
-
-.border-div-test2 {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
-  position: relative;
-  margin: 50px;
-}
-
-.web-container .section-banner {
-  margin-bottom: 144px;
-}
-
-.web-container .section-banner .banner-container {
-  font-family: "Roboto", sans-serif;
-  background-color: #091D18;
-  opacity: 0.5;
-  border-radius: 130px;
-  margin-inline: 77px;
-  padding: 105px 0 113px 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.web-container .section-banner .banner-container img {
-  opacity: inherit;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
